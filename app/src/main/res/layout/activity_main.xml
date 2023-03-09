@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    >
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/card_view"
@@ -56,11 +57,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="6sp"
+                    android:fontFamily="@font/dm_sans"
                     android:text="@string/job_text_view"
-                    android:textColor="#122940"
-                    android:textSize="12sp"
-                    android:textStyle="bold"
-                    android:fontFamily="@font/dm_sans" />
+                    android:textColor="#DE122940"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
 
                 <com.google.android.material.textview.MaterialTextView
                     android:id="@+id/location_text_view"
@@ -69,6 +70,7 @@
                     android:layout_marginBottom="6sp"
                     android:drawableStart="@drawable/ic_location"
                     android:drawablePadding="2dp"
+                    android:layout_marginStart="-2dp"
                     android:fontFamily="@font/dm_sans"
                     android:text="@string/location_text_view"
                     android:textColor="#263238"
